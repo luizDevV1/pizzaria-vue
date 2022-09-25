@@ -8,12 +8,13 @@ import {resolve} from "path";
 export default defineConfig({
   resolve: {
     alias: {
-      "@": resolve(__dirname, "./src/**"),
-      "~config": resolve(__dirname, "./src/controllers/config/**"),
-      "~entity": resolve(__dirname, "./src/models/entities/**"),
-      "~service": resolve(__dirname, "./src/controllers/services/**"),
-      "~components": resolve(__dirname, "./src/vies/components/**"),
-      "~pages": resolve(__dirname, "./src/vies/pages/**"),
+      "@": resolve(__dirname, "./src/"),
+      "~config": resolve(__dirname, "./src/controllers/config"),
+      "~plugins": resolve(__dirname, "./src/controllers/plugins"),
+      "~service": resolve(__dirname, "./src/controllers/services"),
+      "~entity": resolve(__dirname, "./src/models/entities"),
+      "~components": resolve(__dirname, "./src/views/components"),
+      "~pages": resolve(__dirname, "./src/views/pages"),
     },
   },
   plugins: [

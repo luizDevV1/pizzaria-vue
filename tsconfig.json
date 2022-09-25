@@ -18,10 +18,13 @@
     "skipLibCheck": true,
     "paths": {
       "@/*": [
-        "./src/*"
+        "./src/**"
       ],
       "~config/*": [
         "./src/controllers/config/*"
+      ],
+      "~plugins/*": [
+        "./src/controllers/plugins/*"
       ],
       "~entity/*": [
         "./src/models/entities/*"

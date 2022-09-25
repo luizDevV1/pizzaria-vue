@@ -4,4 +4,11 @@
   box-sizing: border-box;
 }
 
+.body--light {
+  background-color: #ebebeb !important;
+}
+.body--dark {
+  background-color: #252525 !important;
+}
+
 /*# sourceMappingURL=quasar.css.map */
