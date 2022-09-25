@@ -6,6 +6,7 @@ import {resolve} from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/system/pizzaria-slice/",
   resolve: {
     alias: {
       "@": resolve(__dirname, "./src/"),
