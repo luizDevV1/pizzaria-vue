@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "useDefineForClassFields": true,
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": [
+      "ES2021",
+      "ES2020",
+      "DOM"
+    ],
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "~config/*": [
+        "./src/controllers/config/*"
+      ],
+      "~entity/*": [
+        "./src/models/entities/*"
+      ],
+      "~service/*": [
+        "./src/controllers/services/*"
+      ],
+      "~components/*": [
+        "./src/vies/components/*"
+      ],
+      "~pages/*": [
+        "./src/vies/pages/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
